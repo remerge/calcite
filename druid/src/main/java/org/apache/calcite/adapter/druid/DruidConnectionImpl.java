@@ -535,7 +535,7 @@ class DruidConnectionImpl implements DruidConnection {
     public List<String> intervals;
     public Map<String, JsonColumn> columns;
     public int size;
-    public int numRows;
+    public long numRows;
     public Map<String, JsonAggregator> aggregators;
   }
 
